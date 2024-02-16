@@ -72,6 +72,9 @@
     rgba(255, 251, 2, 0.849) 0px 50px 100px -20px,
     rgba(246, 250, 0, 0.705) 0px 30px 60px -30px;
   border-radius: 40em;
+
+  transition-property: border-radius;
+  transition-duration: 5s;
 }
 
 hr {
@@ -162,6 +165,31 @@ p {
   font-size: 12px;
 }
 
+.per {
+  color: red;
+  padding-left: 8px;
+}
+
+/* Footer */
+
+.aboutme:hover {
+  color: red;
+  font-size: 30px;
+}
+
+.aboutmee:hover {
+  color: red;
+  font-size: 30px;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(27, 241, 7);
+}
+
 /* hover Efforts */
 
 .box::before {
@@ -174,4 +202,14 @@ p {
   top: 0;
   background-color: #11a372;
   border: 2px solid white;
+}
+
+.pro_img:hover {
+  box-shadow: rgb(90, 233, 114) 0px 1px 1px 0px inset,
+    rgba(166, 243, 94, 0.849) 0px 50px 100px -20px,
+    rgba(40, 236, 73, 0.705) 0px 30px 60px -30px;
+}
+
+.sname:hover {
+  color: rgb(5, 215, 243) !important;
 }
